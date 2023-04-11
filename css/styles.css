@@ -87,7 +87,7 @@
   }
   
   PD {
-    color:red;
+    color:lightskyblue;
   }
   
   PC, PP, PO, PD {
@@ -188,9 +188,8 @@
   }
   
   td {
-    border: 1px solid rgb(196, 196, 196);
-    padding: 5px;
-    margin: 2px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px black;
   }
   
   button {
@@ -199,13 +198,21 @@
   }
   
   .box_habilidades {
-    text-align: left;
+    width: 96%;
   }
-  
+
+  .box_habilidades td::first-line {
+    font-family: Caesar, sans-serif, monospace;
+    font-size: x-large;
+    color: #820000;
+  }
+    
   .box_habilidades td {
-    border: none;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px darkgray;
+    border-radius: 5px;
     padding: 28px 16px;
-    width: 50%;
-    border-bottom: 1px solid rgb(196, 196, 196);
+    margin: 10px 10px;
+    width: 32%;
     text-align: justify;
   }
