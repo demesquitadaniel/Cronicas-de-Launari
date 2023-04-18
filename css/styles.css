@@ -175,7 +175,7 @@
   
   table {
     border: none;
-    width: 94%;
+    width: 98%;
     text-align: center;
     padding-bottom: 3%;
   }
@@ -189,7 +189,9 @@
   
   td {
     margin: 5px;
-    box-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 1px gray;
+    text-align: justify;
+    padding: 7px 5px;
   }
   
   button {
