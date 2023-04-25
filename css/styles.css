@@ -183,7 +183,6 @@
   thead {
     border: none;
     color: white;
-    text-align: center;
     background-color: #b80000;
   }
   
@@ -192,6 +191,10 @@
     box-shadow: 1px 1px 1px gray;
     text-align: justify;
     padding: 7px 5px;
+  }
+
+  thead td {
+    text-align: center;
   }
   
   button {
