@@ -26,7 +26,8 @@
                 <a href="#custo">Custo</a>
                 <a href="#movimentacao">Movimentação</a>
                 <a href="#ataques">Ataques e Habilidades</a>
-                <a href="#exaustao">Exaustão e Sobrecarga</a>
+                <a href="#exaustao">Exaustão</a>
+                <a href="#sobrecarga">Sobrecarga</a>
                 <a href="#resfriamento">Resfriamento e Usos</a>
                 <a href="#resistindo">Resistindo a uma Habilidade</a>
                 <a href="#distracoes">Distrações e Provocações</a>
@@ -93,8 +94,19 @@
                 <h3 id="ataques"><br><br>Ataques e Habilidades</h3>
                 <p>Durante seu turno você pode atacar até duas vezes, se ainda assim você tiver pontos sobrando pode tentar utilizar uma habilidade, habilidades não contam como ataques, mas cuidado ao abusar do uso delas, elas podem causar exaustão ou sobrecarga.</p>
                 <br><hr width="50%">
-                <h3 id="exaustao"><br><br>Exaustão e Sobrecarga</h3>
-                <p>Um alvo pode receber a condição de Exausto se ele exceder sua capacidade física, seja por atividades extensivas, clima ou combate, testes de <strong>Exaustão</strong> serão pedidos. Um alvo pode receber a condição de Sobrecarga ao conjurar muitas magias sem intervalo, testes de <strong>Sobrecarga</strong> serão pedidos. Atacar 3 vezes, ou conjurar 3 magias no mesmo turno, pode causar exaustão ou sobrecarga.</p>
+                <h3 id="exaustao"><br><br>Exaustão</h3>
+                <p>Um alvo pode receber a condição de <strong>Exausto</strong> se ele exceder sua capacidade física, seja por atividades extensivas, clima ou combate, testes de Exaustão serão pedidos. São 6 níveis de exaustão cumulativa, para remover um nível de exaustão, o personagem deverá finalizar um descanso longo ou utilizar a magia correspondente. Os efeitos por nível são os seguintes:<br>
+                • Menos 5 pontos de saúde para cada nível de exaustão;<br>
+                • Menos 1 em acertos e perícias para cada nível de exaustão a partir do segundo nível de exaustão;<br>
+                • Menos 2 pontos de ação para cada nível de exaustão a partir do terceiro;<br>
+                • Morte ao atingir 6 pontos de exaustão.</p>
+                <br><hr width="50%">
+                <h3 id="sobrecarga"><br><br>Sobrecarga</h3>
+                <p>Um usuário de magia deve se manter atento quando manipulando suas habilidades, o uso desenfreado de magias pode causar a <strong>Sobrecarga</strong> de seu sistema nervoso, causando consequências indesejadas. Quando um personagem utilizar 3 magias em um turno, tentar conjurar magia quando silenciado ou em uma área de anti-magia, um teste de Sobrecarga será pedido. Sobrecarga possui 4 níveis cumulativos, para remover um nível de sobrecarga o personagem deverá finalizar um descanso longo. Os efeitos por nível são os seguintes:<br>
+                • Menos 1 na capacidade total de habilidades com usos para cada nível de sobrecarga;<br>
+                • Menos 1 na dificuldade de salvamento de suas habilidades para cada nível de sobrecarga a partir do segundo nível;<br>
+                • Utilizar magias que não possuem usos consome sua saúde em 5 pontos, a partir do terceiro nível de sobrecarga;<br>
+                • Perda da capacidade de conjurar magias com usos de PA/PR</p>
                 <br><hr width="50%">
                 <h3 id="resfriamento"><br><br>Resfriamento e Usos</h3>
                 <p><strong>Habilidades Marciais</strong> possuem tempo de <strong>Resfriamento</strong>, isso significa que assim que usar sua habilidade, você terá de esperar um tempo para poder utilizá-la novamente. Um exemplo disso é se você utilizar uma habilidade que tenha resfriamento de 1 turno, isso quer dizer que na próxima rodada não poderá utilizar essa habilidade, apenas na rodada seguinte. Por outro lado, <strong>Habilidades Mágicas</strong> tem um número de <strong>Usos</strong> diário, essas habilidades recarregam sempre que você finalizar um descanso longo, e não possuem resfriamento.</p>
@@ -142,7 +154,7 @@
                 <p>Se aventurar pelos ambientes extremos do mundo podem causar alguns problemas, ambientes áridos e desertos podem causar desidratação e ambientes de extremo frio podem causar queimadura por frio. Essas condições debilitam os personagens, diminuindo pela metade sua movimentação de viagem e causando desvantagem em testes relacionados à natureza.</p>
                 <br><hr width="50%">
                 <h3 id="viagens"><br><br>Viagens</h3>
-                <p>Seus personagens irão atravessar muitas estradas em suas aventuras, para calcular seu tempo de viagem, algumas coisas devem ser consideradas: Viajar pela estrada é a maneira mais rápida e efetiva, assim como segura. Cada hexágono no mapa equivale a 2 horas, viajar fora das estradas dobra esse tempo. Um aventureiro comum consegue viajar por 8 horas seguidas, ou 10 horas com um intervalo de 1 hora depois das primeiras 5 horas de viagem.</p>
+                <p>Seus personagens irão atravessar muitas estradas em suas aventuras, para calcular seu tempo de viagem, algumas coisas devem ser consideradas: Viajar por estradas é a maneira mais rápida e efetiva, assim como segura. Cada hexágono no mapa equivale a 2 horas de viagem a pé, viajar fora das estradas dobra esse tempo. Um aventureiro comum consegue viajar por 8 horas seguidas, ou 10 horas com um intervalo de 1 hora depois das primeiras 5 horas de viagem. Viagens em veículos de terra e água diminuem o tempo pela 1/2 (metade), enquanto veículos aéreos diminuem para 1/3 (um terço)</p>
                 <br><hr width="50%">
                 <h3 id="viagemForcada"><br><br>Viagem Forçada</h3>
                 <p>Caso seu personagem queira estender sua viagem, seja para chegar mais cedo ou fugir de algum lugar, para cada hora extra estipuladas na regra de viagens um teste de exaustão será pedido. Este teste tem a dificuldade 10 e aumenta em 2 para cada hora extra viajada. Caso seu personagem falhe, ele receberá a condição de exaustão. Personagens com a condição de exaustão podem se forçar ainda mais, porém 3 testes falhos levam à morte por exaustão.</p>
